@@ -8,12 +8,111 @@
                 background-color: #ffbb99; 
                 font-family:'Courier New', Courier, monospace; 
                 font-size:larger;
+                text-align: center;
+            }
+
+            div {
+                width: 70%;
+                margin: auto;
+                background-color: #ff9933;
+                border: 2px solid brown;
+            }
+
+            h1, h3 {
+                text-decoration: underline;
+            }
+
+            p {
+                padding: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: justify;
+            }
+
+            hr {
+                border-color: black;
+                width: 75%;
+            }
+
+            img {
+                width: 800px;
+                height: 500px;
             }
         </style>
     </head>
 
     <body>
-        <h1>Page 1</h1>
-        <p>Welcome to Page 1</p>
+        <div>
+        <h1>HTML Attributes</h1>
+        </div>
+        <hr>
+        
+        <div>
+            <h3>Introduction</h3>
+            <p>
+                All HTML elements can have attributes.
+                <br>Attributes provide additional information about elements.
+                <br>Attributes are always specified in the start tag.
+                <br>Attributes usually come in name/value pairs like: <b>name="value"</b>
+                <br>Let's look at some HTML attributes.
+            </p>
+        </div>
+        <hr>
+
+        <div>
+            <h4>href attribute:</h4>
+            <img src="assets/href.png" alt="href attribute" title="href attribute">
+            <p>
+                The <b>a</b> tag defines a hyperlink.
+                <br>The <b>href</b> attribute specifies the URL of the linked page.
+            </p>
+        </div>
+        <hr>
+
+        <div>
+            <h4>src attribute:</h4>
+            <img src="assets/src.png" alt="src attribute" title="src attribute">
+            <p>
+                The <b>img</b> tag is used to embed an image in a HTML page.
+                <br>The <b>src</b> attribute specifies the path to the image to be displayed.
+            </p>
+        </div>
+        <hr>
+
+        <div>
+            <h4>width & height attribute:</h4>
+            <img src="assets/whimg.png" alt="width & height attribute" title="width & height attribute">
+            <p>
+                The <b>img</b> tag should also contain the width & height attributes, which specify the size of the image(in pixels).
+            </p>
+        </div>
+        <hr>
+
+        <div>
+            <h4>alt attribute:</h4>
+            <img src="assets/altimg.png" alt="alt attribute" title="alt attribute">
+            <p>
+                The <b>alt</b> attribute for the <b>img</b> tag specifies alternate text for an image, if the image for some reason cannot be displayed.
+            </p>
+        </div>
+        <hr>
+
+        <div>
+            <h4>style attribute:</h4>
+            <img src="assets/styleimg.png" alt="style attribute" title="style attribute">
+            <p>
+                The <b>style</b> attribute is used to add styles to an element, such as color, font, size, etc.
+            </p>
+        </div>
+        <hr>
+
+        <div>
+            <h4>title attribute:</h4>
+            <img src="assets/titleimg.png" alt="title attribute" title="title attribute">
+            <p>
+                The <b>title</b> attribute defines some extra information about the element.
+                <br>The value of the title attribute will be displayed as a tool-tip when the mouse hovers over the element.
+            </p>
+        </div>
     </body>
 </html>
