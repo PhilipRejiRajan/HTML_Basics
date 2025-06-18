@@ -8,6 +8,7 @@
                 background-color: #ffbb99; 
                 font-family:'Courier New', Courier, monospace; 
                 font-size:larger;
+                text-align: center;
             }
 
             h1, h3 {
@@ -15,9 +16,10 @@
             }
 
             p {
-                border:2px solid brown;
                 padding: 10px;
-                margin-right: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: justify;
             }
 
             img {
@@ -28,6 +30,13 @@
 
             hr {
                 border-color: black;
+                width: 75%;
+            }
+
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
             }
 
             table, th, td {
@@ -46,27 +55,38 @@
                 text-align: center;
             }
 
+            div {
+                width: 70%;
+                margin: auto;
+                background-color: #ff9933;
+                border: 2px solid brown;
+            }
+
         </style>
     </head>
 
     <body>
-
+        <div>
         <h1>HTML Basics</h1>
         <h4>Welcome to basics of Hypertext Markup Language!</h4>
+        </div>
         <hr>
 
+        <div>
         <h3>Introduction</h3>
-        <img src="html_image.png" alt="HTML Icon" title="HTML Icon" width="500" height="300">
+        <img src="assets/html_image.png" alt="HTML Icon" title="HTML Icon" width="500" height="300">
 
         <p>
             HTML is basically the <mark>structure of a webpage.</mark>
             <br>It consists of a series of elements that tell the web-browser how to display content.
             <br>Let's look at some HTML elements, attributes and tags.
         </p>
+        </div>
         <hr>
 
+        <div>
         <h3>Basic HTML Template</h3>
-        <img src="html_template.png" alt="HTML Template" title="HTML Template" width="500" height="300">
+        <img src="assets/html_template.png" alt="HTML Template" title="HTML Template" width="500" height="300">
         <p>
             Explanation of the above image:
             <br>Every HTML page begins with a <b>!DOCTYPE html</b> declaration.
@@ -77,8 +97,10 @@
             <br>The <b>body</b> element contains all visible content such as headings, paragraphs, images, links, etc.
             <br>The <b>h1</b> element and <b>p</b> element define a heading and paragraph respectively.
         </p>
+        </div>
         <hr>
 
+        <div>
         <h3>Page Content:</h3>
         <table>
             <tr>
@@ -112,6 +134,7 @@
                 <td><a href="page5.html" target="_blank" title="Open Page 5">Click Here</a></td>
             </tr>
         </table>
+        </div>
 
     </body>
 </html>
