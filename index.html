@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Home Page</title>
+        <title>HTML Basics - Home</title>
         <style>
 
             body {
@@ -28,6 +28,22 @@
 
             hr {
                 border-color: black;
+            }
+
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 800px;
+            }
+
+            th, td {
+                background-color: #ffe6cc;
+                border-style: dashed;
+            }
+
+            tr {
+                height: 80px;
+                text-align: center;
             }
 
         </style>
@@ -64,13 +80,38 @@
         <hr>
 
         <h3>Page Content:</h3>
-        <p>
-        <a href="page1.html" target="_blank" title="Open Page 1">Page 1</a>
-        <a href="page2.html" target="_blank" title="Open Page 2">Page 2</a>
-        <a href="page3.html" target="_blank" title="Open Page 3">Page 3</a>
-        <a href="page4.html" target="_blank" title="Open Page 4">Page 4</a>
-        <a href="page5.html" target="_blank" title="Open Page 5">Page 5</a>
-        </p>
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>Content</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Page 1</td>
+                <td><a href="page1.html" target="_blank" title="Open Page 1">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Page 2</td>
+                <td><a href="page2.html" target="_blank" title="Open Page 2">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Page 3</td>
+                <td><a href="page3.html" target="_blank" title="Open Page 3">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Page 4</td>
+                <td><a href="page4.html" target="_blank" title="Open Page 4">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Page 5</td>
+                <td><a href="page5.html" target="_blank" title="Open Page 5">Click Here</a></td>
+            </tr>
+        </table>
 
     </body>
 </html>
