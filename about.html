@@ -26,7 +26,7 @@
                 padding: 10px;
                 margin-left: auto;
                 margin-right: auto;
-                text-align: left;
+                text-align: justify;
             }
 
             hr {
@@ -42,13 +42,83 @@
                 margin: 20px;
             }
             
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 1000px;
+            }
+
+            th, td {
+                background-color: #ffe6cc;
+                border-style: dashed;
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 1000px;
+            }
+
+            tr {
+                height: 80px;
+                text-align: center;
+            }
+
+            caption {
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+
         </style>
     </head>
 
     <body>
         <div>
             <h1>About Me</h1>
+            <a href="index.html" title="Go to Home Page" style="margin-right: 900px;">Home</a>
+            <a href="projects.html" target="_blank" title="Go to Projects Page">Projects</a>
         </div>
         <hr>
+
+        <div>
+            <p>
+                My name is Philip Reji Rajan. I am a 3rd year BCA undergraduate at Kristu Jayanti College (Autonomous), Bangalore.
+                I was first introduced to coding back in 8th grade and the first language I learnt was Java.
+                After that, I have been exposed to a variety of languages such as C++ while in 11th & 12th, C, VB.NET and again Java in college.
+                <br>
+                <br>
+                I tried experimenting with Python and JavaScript without having any prior knowledge about them myself.
+                When it comes to programming I believe I'm still a complete novice but I'm determined to become a master in a particular field.
+                <br>
+                <br>Wish me luck! :)
+            </p>
+        </div>
+        <hr>
+
+        <div>
+            <table>
+                <caption>Technical Skills Table</caption>
+                <tr>
+                    <th>Index</th>
+                    <th>Description</th>
+                    <th>Skills</th>
+                </tr>
+                <tr>
+                    <th>1.</th>
+                    <td>Languages:</td>
+                    <td>HTML, CSS, JavaScript, C, Java, Python, VB.NET</td>
+                </tr>
+                <tr>
+                    <th>2.</th>
+                    <td>Tools:</td>
+                    <td>Git, GitHub, VS Code, Visual Studio, SQL Server, Node.js, Notion</td>
+                </tr>
+                <tr>
+                    <th>3.</th>
+                    <td>Development Areas:</td>
+                    <td>Web Development, Application Development, Testing</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
